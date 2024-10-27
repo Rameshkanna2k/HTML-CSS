@@ -46,7 +46,39 @@ And then the status code which is 200, which means everything is okay, and the r
 um, there's stuff down here like in the response headers.
 Extension: quick view source
 
+THE ROLE OF HTML,CSS & JAVASCRIPT:
 
+HTML --> content & structure -- Headings,Paragraphs,Lists,Images,Links,Tables
+It stands for Hypertext Markup Language, and it's the standard markup language for documents that are
+designed to be displayed in web browsers.
+
+CSS --> CSS stands for Cascading Style Sheets, and it's a style sheet language used for describing the
+presentation of documents written in HTML.
+CSS describes how elements should be styled and rendered on the screen.
+And you can do everything from colors, fonts, spacing, layout.
+You can even do really complex animations and transitions.
+There's a ton that you can do with CSS.
+And the role of CSS is presentation and styling.
+
+Javascript --> (dynamic and interactive)  JavaScript is a programming language, and it can be used to make your web pages dynamic and interactive.
+Things like modals, pop ups, form validation.They're controlled by JavaScript, but they do also integrate parts of CSS.
+For instance, when you have a hamburger menu that you click on and you have a menu slide in, you know,
+from the top or whatever, you're doing a lot of, of, um, stuff with CSS as well.
+You're adding and removing classes and so on.You can also directly change the style of elements through JavaScript.
+
+So HTML, CSS and JavaScript are client side technologies.This means that they're rendered on the client machine and in the browser.
+When you go to a website, the HTML file is downloaded to your computer along with any CSS and any other
+resources and then rendered by the browser.
+
+when you look at websites like Amazon or Facebook, these are web applications and they have a
+lot of functionality.Things like authentication, shopping carts, profiles, messaging, all this stuff is not possible
+with client side technologies.You need a server that's running a server side language such as PHP, Python, C, sharp, Java, or
+even JavaScript because JavaScript can run on the server using a runtime such as NodeJS, which is actually
+Now these server side languages also have access to a database, and this is where data like the users
+that register.On you, you know, through your website or through your application or stored or your products.
+You know, all the products on Amazon with the descriptions and names and pictures.
+Those are all stored in databases.If you have a blog, your blog posts are stored in databases, and you can't access a database from
+the client or also called the front end, you need to have server side programming for that.
 
 
 
