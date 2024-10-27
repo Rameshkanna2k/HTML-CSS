@@ -1,10 +1,56 @@
+WELCOME TO THE COURSE:
+
 HTML and CSS are the building blocks of the web.
-
 HTML is is simple compared to CSS, so it's mostly CSS and we'll cover everything
-
 from basic properties like colors and font sizes to the box model, flexbox, CSS grids, pseudo selectors,
-
 So version control with git will will deploy a couple websites to services like Netlify and Vercel.
+Purchase domain name & host a website
+
+HOW THE WEB WORKS:
+
+URL - Uniform Resource Locator (https://facebook.com)
+https -- protocal
+facebook.com -- dommain name
+
+client -----------> server (Domain Name System)
+       http request 
+       http response
+
+HTTP - hypertext transfer protocol
+
+Communication language of the client & server
+that allows browsers and other clients to talk to
+servers and vice versa.
+
+https --> secured data is encrypted
+HTTP is stateless, which means that each request response cycle is independent from previous transactions.
+When you refresh a web page, it's a completely different request than the last refresh and nothing
+Now, sometimes you may see like a like a welcome message with your name, and it's there on every refresh. That name is being stored in something called a session, or through cookies on either the server or
+Now when you make an HTTP request, you also get back a status code.
+200 is a successful response.If you go to URL that doesn't exist, then that's a not found.
+That's a 404 status code, and you've probably seen that before.
+
+And once you get into JavaScript and you get into APIs and all that, this stuff becomes much more important.
+There's also different types of requests that can be made with HTTP.
+
+The most common is called a Get request.
+This is when you're just getting data.
+And this is the type of request that's made when you just visit a website.
+But there's also post requests, which is when you're sending something to the data, typically through
+a web form.There's also put requests for updating data and delete requests for deleting data.
+
+And if you click on Netflix.com, this is basically the main page, the main request.
+You can see the URL.
+You can see the request method which remember is a Get request when you just simply go to a website.
+And then the status code which is 200, which means everything is okay, and the remote IP address,
+um, there's stuff down here like in the response headers.
+Extension: quick view source
+
+
+
+
+
+
 
 
 
